@@ -11,15 +11,16 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int barDarkColor=0x7f040006;
-        public static final int barLightColor=0x7f040008;
-        public static final int barMeduimColor=0x7f040007;
-        public static final int listViewBg=0x7f040002;
-        public static final int sendDarkColor=0x7f040005;
-        public static final int sendLightColor=0x7f040003;
-        public static final int sendMeduimColor=0x7f040004;
+        public static final int barDarkColor=0x7f040007;
+        public static final int barLightColor=0x7f040009;
+        public static final int barMeduimColor=0x7f040008;
+        public static final int listViewBg=0x7f040003;
+        public static final int sendDarkColor=0x7f040006;
+        public static final int sendLightColor=0x7f040004;
+        public static final int sendMeduimColor=0x7f040005;
         public static final int textColor=0x7f040000;
-        public static final int textShadow=0x7f040001;
+        public static final int textFieldColor=0x7f040001;
+        public static final int textShadow=0x7f040002;
     }
     public static final class drawable {
         public static final int green=0x7f020000;

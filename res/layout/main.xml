@@ -2,36 +2,50 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@color/listViewBg" >
+    android:background="@color/listViewBg"
+    android:orientation="vertical" >
 
     <LinearLayout
         android:id="@+id/bottom_write_bar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" android:background="@drawable/message_bar">
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/message_bar" >
+
         <EditText
-		    android:background="@drawable/message_field"
+            android:id="@+id/text"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/message_field"
             android:hint="Write here"
-            android:id="@+id/text"
-            android:layout_weight="1" android:padding="5sp" android:layout_margin="5sp" android:textColor="@color/textColor"/>
+            android:padding="5sp"
+            android:textColor="@color/textFieldColor" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:background="@drawable/send_button"
             android:onClick="sendMessage"
-            android:text="Send" android:background="@drawable/send_button" android:paddingBottom="5sp" android:paddingLeft="15sp" android:paddingRight="15sp" android:paddingTop="5sp" android:textColor="#FFF" android:layout_margin="5sp"/>
+            android:paddingBottom="5sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="5sp"
+            android:text="Send"
+            android:textColor="#FFF" />
     </LinearLayout>
 
     <ListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
-        android:layout_alignParentTop="true"
         android:layout_above="@id/bottom_write_bar"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="#00000000"
         android:divider="#00000000"
-        >
+        android:listSelector="#00000000" >
     </ListView>
 
     <TextView
@@ -40,5 +54,7 @@
         android:layout_height="fill_parent"
         android:layout_above="@id/bottom_write_bar"
         android:layout_alignParentTop="true"
-        android:text="@string/main_empty_list" android:gravity="center_vertical|center_horizontal"/>
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/main_empty_list" />
+
 </RelativeLayout>

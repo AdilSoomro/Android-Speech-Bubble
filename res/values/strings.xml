@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, MessageActivity!</string>
-    <string name="app_name">SpeechBubble</string>
-     <string name="main_empty_list">You haven\'t sent any messages</string>
+	<string name="hello">Hello World, MessageActivity!</string>
+	<string name="app_name">SpeechBubble</string>
+	<string name="main_empty_list">There is no recent conversation, write new message
+		to start one.</string>
 
 </resources>
