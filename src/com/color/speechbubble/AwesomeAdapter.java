@@ -88,7 +88,7 @@ public class AwesomeAdapter extends BaseAdapter{
 	@Override
 	public long getItemId(int position) {
 		//Unimplemented, because we aren't using Sqlite.
-		return 0;
+		return position;
 	}
 
 }
