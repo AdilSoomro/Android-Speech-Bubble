@@ -11,7 +11,7 @@ Android-Speech-Bubble is an effort to reperesent a demo of using 9 patch images 
 How it works!
 -----
 
-Well, relevant blog entry can be found here: [Android ListView with Speech Bubble](http://adilsoomro.blogspot.com/2012/12/android-listview-with-speech-bubble.html)
+Well, relevant blog entry can be found here: [Android ListView with Speech Bubble](http://blog.booleanbites.com/2012/12/android-listview-with-speech-bubble.html)
 
 
 
